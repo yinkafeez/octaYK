@@ -1,38 +1,1726 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Italiana&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    max-width: 100%;
+}
+/* STYLING NAVBAR PAGE */
+
+.nav-container {
+    /* position: fixed; */
+    max-width: 100%;
+    width: 100%;
+    padding-top: 2rem;
+    background-image: url("images/IMG1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 9rem;
+}
+.webNameItems{
+    padding-left: 2.5rem;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #FAF4F4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Items{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FAF4F4;
+}
+.btnItemsDiv{
+    /* padding-left: 9rem; */
+    text-align: end;
+}
+.btnItems{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FAF4F4;
+    background: linear-gradient(163.84deg, rgba(37, 191, 154, 0.81) 15.49%, rgba(37, 191, 154, 0) 103.74%);
+    border: 3px solid #18E4B3;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btnItems:hover{
+    background: linear-gradient(163.84deg, rgba(37, 191, 154, 0.81) 15.49%, rgba(37, 191, 154, 0) 103.74%);
+    border: 3px solid #18E4B3;
+}
+.section-two-container-div{
+    padding-top: 2rem;
+    
+}
+.top-title-col{
+    border: 1px solid #18E4B3;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+.top-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FAF4F4;
+    text-align: center;
+}
+.top-sub-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size:42px;
+    text-align: center;
+    color: #FAF4F4;
+}
+.top-sub-title-bold{
+    color: #18E4B3;
+}
+.top-description{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #FAF4F4;
+    padding-top: 1rem;
+}
+.nav-div-btn-row{
+    padding-top: 3rem;
+    padding-left: 6rem;
+}
+.nav-div-btn-one {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FEFAFA;
+    background: linear-gradient(175.87deg, rgba(37, 191, 154, 0.81) 10.16%, rgba(37, 191, 154, 0) 127.12%);
+    border: 3px solid #18E4B3;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.nav-div-btn-one:hover{
+    background: linear-gradient(175.87deg, rgba(37, 191, 154, 0.81) 10.16%, rgba(37, 191, 154, 0) 127.12%);
+    border: 3px solid #18E4B3;
+}
+.nav-div-btn-two{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FEFAFA;
+    background-color: transparent;
+    border: 2px solid #25BF9A;
+    /* margin-left: 7rem; */
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.nav-div-btn-two:hover{
+    background-color: transparent;
+    border: 2px solid #25BF9A;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/*  STYLING SOCIAL MEDIA PAGE */
+.social-medai-row{
+    margin-top: -5rem;
+    /* margin-bottom: 4rem; */
+}
+.social-medai-col{
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgba(39, 118, 99, 0.81);
+    border-radius: 30px;
+}
+.social-media-item{
+    color:#FEFAFA;
+    padding-left: 5.2rem;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* STYLING WORK STRATEGY PAGE */
+
+.work-strategy-container{
+    max-width: 100%;
+    background: #00120E;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.work-strategy-row{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.work-strategy-welcome-par{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FAF4F4;
+}
+.work-strategy-decription-par{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FAF4F4;
+}
+.work-strategy-par{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    color: #FAF4F4;
+}
+.work-strategy-col-one{
+    padding-top: 2rem;
+}
+.work-strategy-div-one{
+    box-sizing: border-box;
+    background: linear-gradient(141.51deg, rgba(0, 18, 14, 0.81) 24.13%, rgba(5, 75, 58, 0.81) 76.37%, rgba(6, 88, 69, 0.81) 86.97%);
+    text-align: center;
+    width: 80%;
+    border: 2px solid rgba(39, 118, 99, 0.81);
+    padding-top: 2.5rem;
+    padding-right: 10px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+.work-strategy-icon-one-col{
+    padding-top: 1.6rem;
+}
+.work-strategy-icon-one{
+    width: 70px;
+    height: 60px;
+    color: #FAF4F4
+}
+#work-strategy-one-base{
+    margin-left: 10rem;
+    width: 30%;
+    height: 25px;
+    transform: skew(50deg);
+    border: 2px solid rgba(39, 118, 99, 0.81);
+    border-top: none;
+    background-color: transparent;
+}
+.work-strategy-title-one-par{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #FAF4F4;
+}
+.work-strategy-text-one-par{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    color: #FAF4F4;
+    
+}
+.work-strategy-div-two{
+    box-sizing: border-box;
+    background: linear-gradient(141.51deg, rgba(0, 18, 14, 0.81) 24.13%, rgba(5, 75, 58, 0.81) 76.37%, rgba(6, 88, 69, 0.81) 86.97%);
+    text-align: center;
+    width: 80%;
+    border: 2px solid rgba(39, 118, 99, 0.81);
+    padding-top: 2.5rem;
+    padding-right: 10px;  
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+.work-strategy-icon-two-col{
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+#work-strategy-icon-two{
+    width: 25%;
+    height: 10px;
+    transform: matrix(0.71, 0.14, -2.99, 0.8, 0, 0);
+    background: transparent;
+    border: 1px solid #F4F4F4;
+}
+.work-strategy-title-two-par{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #FAF4F4;
+}
+.work-strategy-text-two-par{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    color: #FAF4F4;
+}
+#work-strategy-two-base{
+    margin-left: 10rem;
+    width: 30%;
+    height: 25px;
+    transform: skew(50deg);
+    border: 2px solid rgba(39, 118, 99, 0.81);
+    border-top: none;
+    background-color: transparent;
+}
+.work-strategy-div-three{
+    box-sizing: border-box;
+    background: linear-gradient(141.51deg, rgba(0, 18, 14, 0.81) 24.13%, rgba(5, 75, 58, 0.81) 76.37%, rgba(6, 88, 69, 0.81) 86.97%);
+    text-align: center;
+    width: 80%;
+    border: 2px solid rgba(39, 118, 99, 0.81);
+    padding-top: 2.5rem;
+    padding-right: 10px;  
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+.work-strategy-icon-three-col{
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+.work-strategy-icon-three-col img {
+    width: 60px;
+}
+.work-strategy-title-three-par{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #FAF4F4;
+}
+.work-strategy-text-three-par{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    color: #FAF4F4;
+}
+#work-strategy-three-base{
+    margin-left: 10rem;
+    width: 30%;
+    height: 25px;
+    transform: skew(50deg);
+    border: 2px solid rgba(39, 118, 99, 0.81);
+    border-top: none;
+    background-color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* STYLING ROADMAP PAGE */
+.Roadmap-container{
+    max-width: 100%;
+    background-image: url(images/IMG2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.Roadmap-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FAF4F4;
+    text-align: center;
+}
+/* col one div */
+.Roadmap-div-one{
+    padding-left: 3.5rem;
+    padding-top: 3rem;
+}
+.Roadmap-height{
+    width: 18px;
+    height: 375px;
+    border: 2px solid #25BF9A;
+    margin-left: 1.5rem;
+}
+.Roadmap-base{
+    width: 68px;
+    height: 61px;
+    border: 2px solid #25BF9A;
+    border-radius: 50%;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.Roadmap-base-list-col{
+    padding-top: 1.2rem;
+}
+.Roadmap-base-list-title{
+    margin-left: -1.2rem;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #FAF4F4;
+}
+.Roadmap-base-list-items{
+    text-align: end;
+    float: right;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FAF4F4;
+}
+/* col two div */
+.Roadmap-div-two{
+    padding-top: 13rem;
+}
+.Roadmap-col-two{
+    padding-right: 4rem;
+}
+/* col three div */
+.Roadmap-div-three{
+    padding-top: 23rem;
+}
+.Roadmap-col-three{
+    padding-right: 4rem;
+}
+/* col four div */
+.Roadmap-div-four{
+    padding-top: 33rem;
+}
+.Roadmap-col-four{
+    padding-right: 4rem;
+}
+
+
+
+/* STYLING TEAM PAGE */
+
+.team-container{
+    max-width: 100%;
+    background: rgba(0, 18, 14, 0.9);
+    padding-top: 5rem;
+}
+.team-header{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FAF4F4;
+    text-align: center;
+}
+
+.team-row{
+    padding-top: 4rem;
+}
+.team-col{
+    text-align: center;
+    justify-content: center;
+}
+.team-img-border-bg-div-container{
+    padding-left: 3rem;
+}
+.team-img-border-bg{
+    border: 1px solid #25BF9A;
+    border-radius: 30px;
+    width: 87%;
+    height: 140px;
+    text-align: center;
+    
+}
+.team-img img{
+    margin-top: -6.2rem;
+}
+.team-bio-div{
+    text-align: center;
+}
+.team-name{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #FAF4F4;
+}
+.team-position{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FAF4F4;
+}
+
+
+/* STYLING SUBSCRIPTION PAGE */
+.subscription-container{
+    max-width: 100%;
+    background: #043227;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+}
+.subscription-row{
+    border: 2px solid rgba(45, 121, 103, 0.81);
+    border-radius: 20px; 
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+}
+.subscription-title{
+    padding-top: 4rem;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FAF4F4;
+}
+.subscription-instruction{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FAF4F4;
+}
+.subscription-input-div{
+    padding-top: 1rem;
+}
+.subscription-input{
+    border: 2px solid rgba(45, 121, 103, 0.81);
+    width: 90%;
+    height: 50px;
+    background: #043227;
+    border-radius: 10px; 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;  
+    color: #FAF4F4;
+    padding-left: 10px;
+}
+.subscription-input::placeholder{
+    color: #FAF4F4;
+}
+.subscription-button{
+    background: linear-gradient(180deg, #25BF9A 0%, rgba(37, 191, 154, 0) 100%);
+    border-radius: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FAF4F4;
+    border: none;
+    margin-left: -8.5rem;
+}
+.subscription-img-col{
+    padding-left: 3rem;
+}
+
+
+/* STYLING FOOTER */
+
+.footer-container{
+    max-width: 100%;
+    background: rgba(0, 51, 40, 0.9);
+    padding-top: 3rem;
+    border-bottom:  8px solid #18E4B3;
+}
+.footer-web-name{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #FAF4F4;
+}
+.footer-description{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FAF4F4;
+}
+.footer-social-media-icon{
+    background: #25BF9A;
+    border-radius: 50%;
+    color: #000;
+    width: 40px;
+    height: 45px;
+    margin-left: 1rem;
+
+}
+.copyright-par{
+    padding-top: 3rem;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FAF4F4;
+}
+.footer-col{
+    padding-top: 1rem;
+}
+.footer-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    color: #FAF4F4;
+}
+.footer-items{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FAF4F4;
+}
+
+
+
+
+
+/* STYLE  ON SMALLER SCREEN */
+@media screen and (max-width:576px) {
+   
+    /* STYLING NAVBAR PAGE */
+    .webNameItems{
+        font-size: 12px;
+    }
+    .Items{
+        font-size: 9px;
+    }
+    .btnItems{
+        font-size: 8px;
+    }
+    .top-title{
+        font-size: 17px;
+        padding-top: 1rem;
+    }
+    .top-sub-title{
+        font-size: 22.3px;
+    }
+    .top-description{
+        font-size: 8px;
+    }
+    .nav-div-btn-row{
+        padding-left: 0rem;
+    }
+    .nav-div-btn-one{
+        font-size: 12px;
+    }
+    .nav-div-btn-two{
+        font-size: 12px;
+        /* margin-left: 1rem; */
+    }
+
+    /*  STYLING SOCIAL MEDIA PAGE */
+    .social-medai-row{
+        margin-top: -3rem;
+    }
+    .social-medai-col{
+        align-items: center;
+        padding-top: 10px ;
+        padding-bottom: 10px ;
+        /* padding-right: 20px ; */
+        background: rgba(39, 118, 99, 0.81);
+        border-radius: 30px;
+    }
+    .social-media-item{
+        color:#FEFAFA;
+        font-size: 12px;
+        padding-left: 2.5rem;
+    }
+
+    /* STYLING WORK STRATEGY */
+
+    .work-strategy-welcome-par{
+        font-size: 14px;
+    }
+    .work-strategy-decription-par{
+        font-size: 10px;
+    }
+    .work-strategy-par{
+        font-size: 16px;
+    }
+    .work-strategy-icon-one-col{
+        padding-top: 10px;
+    }
+    .work-strategy-icon-one{
+        width: 35px;
+        height: 30px;
+    }
+    .work-strategy-div-one{
+        width: 98%;
+    }
+    .work-strategy-title-one-par{
+        font-size: 10px;
+    }
+    .work-strategy-text-one-par{
+        font-size: 8px
+    }
+    #work-strategy-one-base{
+        margin-left: 4rem;
+        width: 27%;
+        height: 15px;
+    }
+    .work-strategy-div-two{
+        width: 98%;
+       border-bottom-right-radius: 60px;
+       border-top-left-radius: 60px;
+    }
+    .work-strategy-icon-two-col{
+        padding-top: 10px;
+    }
+    #work-strategy-icon-two{
+        width: 20%;
+        height: 10px;
+        transform: matrix(0.6.7, 0.30, -2.80, 1.2, 0, 0);
+    }
+    .work-strategy-title-two-par{
+        font-size: 10px;
+    }
+    .work-strategy-text-two-par{
+        font-size: 8px
+    }
+    #work-strategy-two-base{
+        margin-left: 4rem;
+        width: 27%;
+        height: 15px;
+    }
+    .work-strategy-div-three{
+        width: 98%;
+    }
+    .work-strategy-icon-three-col{
+        padding-top: 10px;
+    }
+    .work-strategy-icon-three-col img {
+        width: 30px;
+    }
+    .work-strategy-title-three-par{
+        font-size: 10px;
+    }
+    .work-strategy-text-three-par{
+        font-size: 8px
+    }
+    #work-strategy-three-base{
+        margin-left: 4rem;
+        width: 27%;
+        height: 15px;
+    }
+
+    /* STYLING ROAD MAP PAGE */
+    .Roadmap-row{
+        padding-right: 0rem;
+    }
+    .Roadmap-title{
+        font-size: 20px;
+    }
+    .Roadmap-div-one{
+        padding-left: 0.5rem;
+    }
+    .Roadmap-height{
+        width: 13px;
+        height: 375px;
+        margin-left: 12px;
+    }
+    .Roadmap-base{
+        width: 37px;
+        height: 35px;
+        font-size: 22px
+    }
+    .Roadmap-base-list-col{
+        padding-top: 0.2rem;
+        padding-right: 0rem;
+    }
+    .Roadmap-base-list-title{
+        margin-left: 17px;
+        font-size: 12px;
+    }
+    .Roadmap-base-list-items{
+        font-size: 8px;
+    }
+    /* col two div */
+    .Roadmap-col-two{
+        padding-right: 0rem;
+    }
+    /* col three div */
+    .Roadmap-col-three{
+        padding-right: 0rem;
+    }
+    /* col four div */
+    .Roadmap-col-four{
+        padding-right: 16px;
+    }
+
+    /* STYLING TEAM PAGE */
+    .team-header{
+        font-size: 20px;
+    }
+    .team-img img{
+        width: 170px;
+        height: 165px;
+    }
+    .team-name{
+        font-size: 25px;
+    }
+    .team-position{
+        font-size: 14px;
+    }
+
+    /* STYLING SUBSCRIPTION PAGE */
+    .subscription-row{
+        padding-left: 1rem;
+        padding-bottom: 3rem;
+    }
+    .subscription-row{
+        padding-left: 0px;
+    }
+    .subscription-title{
+        font-size: 14px;
+    }
+    .subscription-instruction{
+        font-size: 9px;
+    }
+    .subscription-input{
+        width: 100%;
+        height: 40px;
+    }
+    .subscription-input::placeholder{
+        font-size: 14px;
+    }
+    .subscription-button{
+        font-weight: 700;
+        font-size: 10px;
+        color: #FAF4F4;
+        border: none;
+        margin-left: -4.3rem;
+        padding: 10px 5px 10px;
+    }
+    .subscription-img-col div{
+        padding-left: 0px;
+    }
+    .subscription-img-col div img{
+        width: 160px;
+        height: 235px;
+    }
+
+    /* STYLING FOOTER */
+    .footer-container{
+        max-width: 100%;
+        padding-left: 0rem;
+    }
+    .footer-web-name{
+        font-size: 15px;
+    }
+    .footer-description{
+        font-size: 8px;
+    }
+    .footer-social-media-icon{
+        background: #25BF9A;
+        border-radius: 50%;
+        color: #000;
+        width: 20px;
+        height: 20px;
+        margin-left: 1rem;
+    
+    }
+    .copyright-par{
+        padding-top: 3rem;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        color: #FAF4F4;
+    }
+    .footer-col{
+        padding-top: 10px;
+    }
+    .footer-title{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 9px;
+        color: #FAF4F4;
+    }
+    .footer-items{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7px;
+        color: #FAF4F4;
+    }
+}
+
+
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+   
+    /* STYLING NAVBAR PAGE */
+    .webNameItems{
+        font-size: 18px;
+    }
+    .Items{
+        font-size: 12px;
+    }
+    .btnItems{
+        font-size: 10px;
+    }
+    .top-title{
+        font-size: 19px;
+        padding-top: 1rem;
+    }
+    .top-sub-title{
+        font-size: 30px;
+    }
+    .top-description{
+        font-size: 11px;
+    }
+    .nav-div-btn-row{
+        padding-left: 2rem;
+    }
+    .nav-div-btn-one{
+        font-size: 14px;
+    }
+    .nav-div-btn-two{
+        font-size: 14px;
+        /* margin-left: 3rem; */
+    }
+
+    /*  STYLING SOCIAL MEDIA PAGE */
+    .social-medai-row{
+        margin-top: -3.5rem;
+    }
+    .social-medai-col{
+        align-items: center;
+        padding-top: 17px ;
+        padding-bottom: 17px ;
+        background: rgba(39, 118, 99, 0.81);
+        border-radius: 30px;
+    }
+    .social-media-item{
+        color:#FEFAFA;
+        font-size: 16px;
+        padding-left: 2.5rem;
+    }
+
+    /* STYLING WORK STRATEGY */
+
+    .work-strategy-welcome-par{
+        font-size: 20px;
+    }
+    .work-strategy-decription-par{
+        font-size: 14px;
+    }
+    .work-strategy-par{
+        font-size: 20px;
+    }
+    .work-strategy-icon-one-col{
+        padding-top: 10px;
+    }
+    .work-strategy-icon-one{
+        width: 40px;
+        height: 35px;
+    }
+    .work-strategy-div-one{
+        width: 98%;
+    }
+    .work-strategy-title-one-par{
+        font-size: 15px;
+    }
+    .work-strategy-text-one-par{
+        font-size: 10px
+    }
+    #work-strategy-one-base{
+        margin-left: 5rem;
+        width: 27%;
+        height: 15px;
+    }
+    .work-strategy-div-two{
+        width: 98%;
+        border-bottom-right-radius: 60px;
+        border-top-left-radius: 60px;
+    }
+    .work-strategy-icon-two-col{
+        padding-top: 10px;
+    }
+    #work-strategy-icon-two{
+        width: 30%;
+        height: 10px;
+        transform: matrix(0.71, 0.14, -2.99, 0.8, 0, 0);
+    }
+    .work-strategy-title-two-par{
+        font-size: 15px;
+    }
+    .work-strategy-text-two-par{
+        font-size: 11px
+    }
+    #work-strategy-two-base{
+        margin-left: 5rem;
+        width: 27%;
+        height: 15px;
+    }
+    .work-strategy-div-three{
+        width: 98%;
+    }
+    .work-strategy-icon-three-col{
+        padding-top: 10px;
+    }
+    .work-strategy-icon-three-col img {
+        width: 40px;
+    }
+    .work-strategy-title-three-par{
+        font-size: 15px;
+    }
+    .work-strategy-text-three-par{
+        font-size: 11px
+    }
+    #work-strategy-three-base{
+        margin-left: 5rem;
+        width: 27%;
+        height: 15px;
+    }
+
+    /* STYLING ROAD MAP PAGE */
+    .Roadmap-row{
+        padding-right: 0rem;
+    }
+    .Roadmap-title{
+        font-size: 24px;
+    }
+    .Roadmap-div-one{
+        padding-left: 0.5rem;
+    }
+    .Roadmap-height{
+        width: 13px;
+        height: 375px;
+        margin-left: 14px;
+    }
+    .Roadmap-base{
+        width: 40px;
+        height: 37px;
+        font-size: 24px
+    }
+    .Roadmap-base-list-col{
+        padding-top: 0.2rem;
+        padding-right: 0rem;
+    }
+    .Roadmap-base-list-title{
+        margin-left: 17px;
+        font-size: 14px;
+    }
+    .Roadmap-base-list-items{
+        font-size: 9px;
+    }
+    /* col two div */
+    .Roadmap-col-two{
+        padding-right: 0rem;
+    }
+    /* col three div */
+    .Roadmap-col-three{
+        padding-right: 0rem;
+    }
+    /* col four div */
+    .Roadmap-col-four{
+        padding-right: 16px;
+    }
+
+    /* STYLING TEAM PAGE */
+    .team-header{
+        font-size: 20px;
+    }
+    .team-img img{
+        width: 170px;
+        height: 165px;
+    }
+    .team-name{
+        font-size: 25px;
+    }
+    .team-position{
+        font-size: 14px;
+    }
+
+    /* STYLING SUBSCRIPTION PAGE */
+    .subscription-row{
+        padding-left: 1rem;
+        padding-bottom: 3rem;
+    }
+    .subscription-row{
+        padding-left: 0px;
+    }
+    .subscription-title{
+        font-size: 14px;
+    }
+    .subscription-instruction{
+        font-size: 9px;
+    }
+    .subscription-input{
+        width: 100%;
+        height: 40px;
+    }
+    .subscription-input::placeholder{
+        font-size: 14px;
+    }
+    .subscription-button{
+        font-weight: 700;
+        font-size: 10px;
+        color: #FAF4F4;
+        border: none;
+        margin-left: -4.3rem;
+        padding: 10px 5px 10px;
+    }
+    .subscription-img-col div{
+        padding-left: 0px;
+    }
+    .subscription-img-col div img{
+        width: 175px;
+        height: 245px;
+    }
+
+    /* STYLING FOOTER */
+    .footer-container{
+        max-width: 100%;
+        padding-left: 0rem;
+    }
+    .footer-web-name{
+        font-size: 22px;
+    }
+    .footer-description{
+        font-size: 11px;
+    }
+    .footer-social-media-icon{
+        background: #25BF9A;
+        border-radius: 50%;
+        color: #000;
+        width: 25px;
+        height: 25px;
+        margin-left: 1rem;
+    
+    }
+    .copyright-par{
+        padding-top: 3rem;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 9.5px;
+        color: #FAF4F4;
+    }
+    .footer-col{
+        padding-top: 10px;
+    }
+    .footer-title{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        color: #FAF4F4;
+    }
+    .footer-items{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        color: #FAF4F4;
+    }
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+   
+    /* STYLING NAVBAR PAGE */
+    .webNameItems{
+        font-size: 18px;
+    }
+    .Items{
+        font-size: 15px;
+    }
+    .btnItems{
+        font-size: 12px;
+    }
+    .top-title{
+        font-size: 19px;
+        padding-top: 1rem;
+    }
+    .top-sub-title{
+        font-size: 30.5px;
+    }
+    .top-description{
+        font-size: 11px;
+    }
+    /* .nav-div-btn-row{
+        padding-left: 5rem;
+    } */
+    .nav-div-btn-one{
+        font-size: 14px;
+    }
+    .nav-div-btn-two{
+        font-size: 14px;
+        /* margin-left: 3rem; */
+    }
+
+    /*  STYLING SOCIAL MEDIA PAGE */
+    .social-medai-row{
+        margin-top: -3.5rem;
+    }
+    .social-medai-col{
+        align-items: center;
+        padding-top: 17px ;
+        padding-bottom: 17px ;
+        background: rgba(39, 118, 99, 0.81);
+        border-radius: 30px;
+    }
+    .social-media-item{
+        color:#FEFAFA;
+        font-size: 14.5px;
+        padding-left: 2.5rem;
+    }
+
+    /* STYLING WORK STRATEGY */
+
+    .work-strategy-welcome-par{
+        font-size: 25px;
+    }
+    .work-strategy-decription-par{
+        font-size: 17.5px;
+    }
+    .work-strategy-par{
+        font-size: 24px;
+    }
+    .work-strategy-icon-one-col{
+        padding-top: 10px;
+    }
+    .work-strategy-icon-one{
+        width: 40px;
+        height: 35px;
+    }
+    .work-strategy-div-one{
+        width: 98%;
+    }
+    .work-strategy-title-one-par{
+        font-size: 17px;
+    }
+    .work-strategy-text-one-par{
+        font-size: 12px
+    }
+    #work-strategy-one-base{
+        margin-left: 7rem;
+        width: 27%;
+        height: 15px;
+    }
+    .work-strategy-div-two{
+        width: 98%;
+        border-bottom-right-radius: 60px;
+        border-top-left-radius: 60px;
+    }
+    .work-strategy-icon-two-col{
+        padding-top: 10px;
+    }
+    #work-strategy-icon-two{
+        width: 30%;
+        height: 10px;
+        transform: matrix(0.71, 0.14, -2.99, 0.8, 0, 0);
+    }
+    .work-strategy-title-two-par{
+        font-size: 17px;
+    }
+    .work-strategy-text-two-par{
+        font-size: 12px
+    }
+    #work-strategy-two-base{
+        margin-left: 7rem;
+        width: 27%;
+        height: 15px;
+    }
+    .work-strategy-div-three{
+        width: 98%;
+    }
+    .work-strategy-icon-three-col{
+        padding-top: 10px;
+    }
+    .work-strategy-icon-three-col img {
+        width: 40px;
+    }
+    .work-strategy-title-three-par{
+        font-size: 17px;
+    }
+    .work-strategy-text-three-par{
+        font-size: 12px
+    }
+    #work-strategy-three-base{
+        margin-left: 7rem;
+        width: 27%;
+        height: 15px;
+    }
+
+    /* STYLING ROAD MAP PAGE */
+    .Roadmap-row{
+        padding-right: 0rem;
+    }
+    .Roadmap-title{
+        font-size: 24px;
+    }
+    .Roadmap-div-one{
+        padding-left: 0.5rem;
+    }
+    .Roadmap-height{
+        width: 13px;
+        height: 375px;
+        margin-left: 14px;
+    }
+    .Roadmap-base{
+        width: 40px;
+        height: 37px;
+        font-size: 24px
+    }
+    .Roadmap-base-list-col{
+        padding-top: 0.2rem;
+        padding-right: 0rem;
+    }
+    .Roadmap-base-list-title{
+        margin-left: 17px;
+        font-size: 14px;
+    }
+    .Roadmap-base-list-items{
+        font-size: 9px;
+    }
+    /* col two div */
+    .Roadmap-col-two{
+        padding-right: 1rem;
+    }
+    /* col three div */
+    .Roadmap-col-three{
+        padding-right: 1rem;
+    }
+    /* col four div */
+    .Roadmap-col-four{
+        padding-right: 1rem;
+    }
+
+    /* STYLING TEAM PAGE */
+    .team-img-border-bg-div-container{
+        padding-left: 1rem;
+    }
+    .team-img-border-bg{
+        width: 90%;
+        height: 140px;
+        text-align: center;
+    }
+    .team-header{
+        font-size: 20px;
+    }
+    .team-img img{
+        width: 160px;
+        height: 165px;
+        text-align: center;
+    }
+    .team-name{
+        font-size: 25px;
+    }
+    .team-position{
+        font-size: 14px;
+    }
+
+    /* STYLING SUBSCRIPTION PAGE */
+    .subscription-row{
+        padding-left: 1rem;
+        padding-bottom: 3rem;
+    }
+    .subscription-row{
+        padding-left: 0px;
+    }
+    .subscription-title{
+        font-size: 24px;
+    }
+    .subscription-instruction{
+        font-size: 10.5px;
+    }
+    .subscription-input{
+        width: 100%;
+        height: 40px;
+    }
+    .subscription-input::placeholder{
+        font-size: 15px;
+    }
+    .subscription-button{
+        font-weight: 700;
+        font-size: 12px;
+        color: #FAF4F4;
+        border: none;
+        margin-left: -4.9rem;
+        padding: 10px 5px 8px;
+    }
+    .subscription-img-col div{
+        padding-left: 0px;
+    }
+    .subscription-img-col div img{
+        width: 215px;
+        height: 245px;
+    }
+
+    /* STYLING FOOTER */
+    .footer-container{
+        max-width: 100%;
+        padding-left: 0rem;
+    }
+    .footer-web-name{
+        font-size: 24px;
+    }
+    .footer-description{
+        font-size: 12px;
+    }
+    .footer-social-media-icon{
+        background: #25BF9A;
+        border-radius: 50%;
+        color: #000;
+        width: 25px;
+        height: 25px;
+        margin-left: 1rem;
+    
+    }
+    .copyright-par{
+        padding-top: 3rem;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        color: #FAF4F4;
+    }
+    .footer-col{
+        padding-top: 10px;
+    }
+    .footer-title{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        color: #FAF4F4;
+    }
+    .footer-items{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        color: #FAF4F4;
+    }
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+   
+    /* STYLING NAVBAR PAGE */
+    .webNameItems{
+        font-size: 24px;
+    }
+    .Items{
+        font-size: 20px;
+    }
+    .btnItems{
+        font-size: 18px;
+    }
+    .top-title{
+        font-size: 22px;
+        padding-top: 1rem;
+    }
+    .top-sub-title{
+        font-size: 29.5px;
+    }
+    .top-description{
+        font-size: 10px;
+    }
+    .nav-div-btn-row{
+        padding-left: 4.5rem;
+    }
+    .nav-div-btn-one{
+        font-size: 16px;
+    }
+    .nav-div-btn-two{
+        font-size: 16px;
+        /* margin-left: 3rem; */
+    }
+
+    /*  STYLING SOCIAL MEDIA PAGE */
+    .social-medai-row{
+        margin-top: -3.5rem;
+    }
+    .social-medai-col{
+        align-items: center;
+        padding-top: 20px ;
+        padding-bottom: 20px ;
+        background: rgba(39, 118, 99, 0.81);
+        border-radius: 30px;
+    }
+    .social-media-item{
+        color:#FEFAFA;
+        font-size: 15.5px;
+        padding-left: 3.5rem;
+    }
+
+    /* STYLING WORK STRATEGY */
+
+    .work-strategy-welcome-par{
+        font-size: 37px;
+    }
+    .work-strategy-decription-par{
+        font-size: 20.5px;
+    }
+    .work-strategy-par{
+        font-size: 29px;
+    }
+    .work-strategy-icon-one-col{
+        padding-top: 1rem;
+    }
+    .work-strategy-icon-one{
+        width: 60px;
+        height: 55px;
+    }
+    .work-strategy-div-one{
+        width: 98%;
+    }
+    .work-strategy-title-one-par{
+        font-size: 23px;
+    }
+    .work-strategy-text-one-par{
+        font-size: 20px
+    }
+    #work-strategy-one-base{
+        margin-left: 9rem;
+        width: 30%;
+        height: 20px;
+    }
+    .work-strategy-div-two{
+        width: 98%;
+        border-bottom-right-radius: 60px;
+        border-top-left-radius: 60px;
+    }
+    .work-strategy-icon-two-col{
+        padding-top: 1rem;
+    }
+    #work-strategy-icon-two{
+        width: 30%;
+        height: 10px;
+        transform: matrix(0.71, 0.14, -2.99, 0.8, 0, 0);
+    }
+    .work-strategy-title-two-par{
+        font-size: 23px;
+    }
+    .work-strategy-text-two-par{
+        font-size: 20px
+    }
+    #work-strategy-two-base{
+        margin-left: 9rem;
+        width: 30%;
+        height: 20px;
+    }
+    .work-strategy-div-three{
+        width: 98%;
+    }
+    .work-strategy-icon-three-col{
+        padding-top: 1rem;
+    }
+    .work-strategy-icon-three-col img {
+        width: 40px;
+    }
+    .work-strategy-title-three-par{
+        font-size: 23px;
+    }
+    .work-strategy-text-three-par{
+        font-size: 20px
+    }
+    #work-strategy-three-base{
+        margin-left: 9rem;
+        width: 30%;
+        height: 20px;
+    }
+
+    /* STYLING ROAD MAP PAGE */
+    .Roadmap-row{
+        padding-right: 0rem;
+    }
+    .Roadmap-title{
+        font-size: 30px;
+    }
+    .Roadmap-div-one{
+        padding-left: 0.5rem;
+    }
+    .Roadmap-height{
+        width: 15px;
+        height: 375px;
+        margin-left: 16px;
+    }
+    .Roadmap-base{
+        width: 50px;
+        height: 46px;
+        font-size: 27px
+    }
+    .Roadmap-base-list-title{
+        /* margin-left: 17px; */
+        font-size: 16px;
+    }
+    .Roadmap-base-list-items{
+        font-size: 11px;
+    }
+    /* col two div */
+    .Roadmap-col-two{
+        padding-right: 2rem;
+    }
+    /* col three div */
+    .Roadmap-col-three{
+        padding-right: 2rem;
+    }
+    /* col four div */
+    .Roadmap-col-four{
+        padding-right: 2rem;
+    }
+
+    /* STYLING TEAM PAGE */
+    .team-img-border-bg-div-container{
+        padding-left: 1rem;
+    }
+    .team-img-border-bg{
+        width: 90%;
+        height: 140px;
+        text-align: center;
+    }
+    .team-header{
+        font-size: 20px;
+    }
+    .team-img img{
+        width: 160px;
+        height: 165px;
+        text-align: center;
+    }
+    .team-name{
+        font-size: 25px;
+    }
+    .team-position{
+        font-size: 14px;
+    }
+
+    /* STYLING SUBSCRIPTION PAGE */
+    .subscription-row{
+        padding-left: 1rem;
+        padding-bottom: 3rem;
+    }
+    .subscription-row{
+        padding-left: 0px;
+    }
+    .subscription-title{
+        font-size: 24px;
+    }
+    .subscription-instruction{
+        font-size: 10.5px;
+    }
+    .subscription-input{
+        width: 100%;
+        height: 40px;
+    }
+    .subscription-input::placeholder{
+        font-size: 15px;
+    }
+    .subscription-button{
+        font-weight: 700;
+        font-size: 12px;
+        color: #FAF4F4;
+        border: none;
+        margin-left: -4.9rem;
+        padding: 10px 5px 8px;
+    }
+    .subscription-img-col div{
+        padding-left: 0px;
+    }
+    .subscription-img-col div img{
+        width: 275px;
+        height: 245px;
+    }
+
+    /* STYLING FOOTER */
+    .footer-container{
+        max-width: 100%;
+        padding-left: 0rem;
+    }
+    .footer-web-name{
+        font-size: 28px;
+    }
+    .footer-description{
+        font-size: 13px;
+    }
+    .footer-social-media-icon{
+        background: #25BF9A;
+        border-radius: 50%;
+        color: #000;
+        width: 25px;
+        height: 25px;
+        margin-left: 1rem;
+    
+    }
+    .copyright-par{
+        padding-top: 3rem;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        color: #FAF4F4;
+    }
+    .footer-col{
+        padding-top: 10px;
+    }
+    .footer-title{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 17px;
+        color: #FAF4F4;
+    }
+    .footer-items{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FAF4F4;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1300px) {
+    /* STYLING ROAD MAP PAGE */
+    .Roadmap-row{
+        padding-right: 0rem;
+    }
+    .Roadmap-title{
+        font-size: 30px;
+    }
+    .Roadmap-div-one{
+        padding-left: 0.5rem;
+    }
+    .Roadmap-height{
+        width: 15px;
+        height: 375px;
+        margin-left: 16px;
+    }
+    .Roadmap-base{
+        width: 50px;
+        height: 46px;
+        font-size: 27px
+    }
+    .Roadmap-base-list-title{
+        /* margin-left: 17px; */
+        font-size: 16px;
+    }
+    .Roadmap-base-list-items{
+        font-size: 11px;
+    }
+    /* col two div */
+    .Roadmap-col-two{
+        padding-right: 2rem;
+    }
+    /* col three div */
+    .Roadmap-col-three{
+        padding-right: 2rem;
+    }
+    /* col four div */
+    .Roadmap-col-four{
+        padding-right: 2rem;
+    }
 }
